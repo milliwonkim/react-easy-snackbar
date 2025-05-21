@@ -6,11 +6,7 @@ import React, {
   type ReactNode,
 } from "react";
 import Snackbar from "./Snackbar";
-import type {
-  SnackbarProps,
-  SnackbarPosition,
-  SnackbarType,
-} from "./snackbar.types";
+import type { SnackbarPosition, SnackbarProps } from "./snackbar.types";
 
 // Context 타입
 interface SnackbarContextType {

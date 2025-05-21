@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { useSnackbar } from "./components/Snackbar/useSnackbar";
 
@@ -10,7 +9,7 @@ function DemoComponent() {
       type: "success",
       children: "저장에 성공했습니다!",
       description: "데이터가 정상적으로 저장되었습니다.",
-      position: "top-center",
+      position: "bottom-center",
       autoHideDuration: 2500,
     });
   };

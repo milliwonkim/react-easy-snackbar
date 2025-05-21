@@ -1,5 +1,5 @@
+import { AnimatePresence, motion } from "motion/react";
 import React, { useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
 import type { SnackbarProps } from "./snackbar.types";
 
 const typeColor: Record<string, string> = {
@@ -19,7 +19,6 @@ const Snackbar: React.FC<SnackbarProps> = ({
   snackbarKey,
   children,
   type,
-  position,
   description,
   autoHideDuration = 3000,
   renderStartIcon,
